@@ -1,0 +1,44 @@
+﻿/*家用电器分类页面总宽度为300px
+大标题字体大小为18px、白色、加粗显示，行距为35px，背景使用线性渐变
+电器分类字体大小为14px、加粗显示，行距为30px，背景使用线性渐变，电器分类超链接字体无下划线，鼠标移入出现下划线
+分类内容字体大小为12px，行距为26px，超链接字体颜色为灰色、无下划线，鼠标移入时颜色为棕红色并且显示下划线*/
+
+.box>h3{
+  width:300px;
+  font-size:18px;
+  line-height:35px;
+  background-image:linear-gradient(to bottom,	#00C5CD,#00F5FF);
+  color:white;
+  text-indent:1em;
+}
+h4{
+  width:270px;
+  font-size:14px;
+  line-height:30px;
+  background-image:linear-gradient(to bottom,	#00C5CD,#ffffff );
+  color:blue;
+  text-indent:1em;
+  
+}
+p{
+  font-size:12px;
+  line-height:26px;
+  text-indent:0.5em;
+  
+}
+h4 a:link{
+  
+  text-decoration:none;
+} 
+p a:link{
+  color:#333;
+  text-decoration:none;
+} 
+h4 a:hover{
+  color:red;
+  text-decoration:underline;
+} 
+p a:hover{
+  color:#FF4040;
+  text-decoration:underline;
+} 

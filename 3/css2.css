@@ -1,0 +1,41 @@
+﻿
+
+h2{
+  text-align:center;
+  text-shadow:#ccc 5px 5px 5px;
+  font-family:"宋体";
+  
+}
+h3{
+  text-align:center;
+  font-family:"微软雅黑";
+  color:#ccc;
+}
+.c1{
+  text-align:center;
+  font-size:14px;
+}
+p>span{
+  color:red;
+}
+.p1 { 
+ 
+display: block; 
+margin:auto; 
+} 
+p{
+  text-indent:2em;
+}
+.c2{
+  font-style:italic;
+}
+.c3{
+  font-style:italic;
+}
+.c4{
+  font-style:italic;
+}
+h4{
+ text-indent:2em;
+  
+}
